@@ -112,7 +112,7 @@ hr {
   color: black;
   text-align: center;
   background-color: #eeeeee;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 span {
@@ -149,13 +149,14 @@ span {
   color: #393E46;
   font-size: 25px;
   background-color: #eeeeee;
-  box-shadow: 0px 10px 15px;
+  box-shadow: 2px 2px 15px;
 }
 
 .titulo2 {
   text-align: center;
-  color: #5a37c3;
+  color: black;
   padding: 10px;
+  font-size: 40px;
 }
 
 .txt- {
@@ -243,9 +244,8 @@ body {
 .volumen {
   margin: 10px;
   color: black;
-  font-size: 70px;
+  font-size: 40px;
   text-align: center;
-  text-decoration: underline;
   text-transform: uppercase;
 }
 
@@ -343,9 +343,8 @@ body {
 .definicion {
   margin: 10px;
   color: black;
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
-  text-decoration: underline;
   text-transform: uppercase;
 }
 
@@ -368,6 +367,9 @@ body {
     height: 0px;
     width: 0px;
   }
+  .formulario{
+    font-size: 15px;
+  }
   .videos {
     height: 200px;
     position: relative;
@@ -376,12 +378,42 @@ body {
   .contenedor-suplementos img {
     height: 200px;
   }
+  .presentacion-suplementos{
+    font-size: 15px;
+    padding: 20px;
+  }
   .capa2 {
     width: 0%;
+    font-size: 12px;
   }
   .contenedor-referentes p {
     width: 100%;
     margin: 5px;
+    padding: 20px;
+    font-size: 17px;
+  }
+  .img-refe{
+    width: 350px !important;
+    
+  }
+  .contenedor-alimentos{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 200px);
+    background-color: #42288F;
+    padding: 15px;
+    grid-gap: 20px;
+  }
+  .volumen{
+    font-size: 40px;
+  }
+  .definicion{
+    font-size: 40px;
+  }
+  .txt-volumen{
+    font-size: 15px;
+  }
+  .txt-definicion{
+    font-size: 15px;
   }
 }
 @media (max-width: 820px) {

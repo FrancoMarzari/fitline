@@ -1,3 +1,4 @@
+
 *{
     padding: 0%;
     margin: 0px;
@@ -6,25 +7,22 @@
 body{
     background-color:  #eeeeee;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}  
+} 
+
 
 nav{
+    @include mp(0px,20px);
     color: #42288F;
-    display: flex;
-    justify-content: space-between;
+    @include dflex;
     width: 100%;
     z-index: 200;
     position: sticky;
     background-color: #0e0220;
     font-size: 40px;
     text-transform: uppercase;
-    padding: 20px;
-
 }
 h1{
-    margin-right: 600px;
-    display: flex;
-    align-items: center;
+    @include display( flex,justify-content,$ag)
 }
 nav a{
     color: #42288F;
@@ -66,12 +64,12 @@ ul{
 }
 
 .formulario{
+    @include mrg1;
     color: black;
     text-transform: uppercase;
     background-color:#eeeeee;
     width: 500px;
     height: auto;
-    margin: 0% auto;
     font-size: 30px;
 }
 
@@ -89,7 +87,7 @@ hr{
     font-size: 30px;
     margin: 10px;
 }
-                               /*musculacion*/
+                            /*musculacion*/
 .presentacion-musculacion{
     padding:10px;
     color: #393E46;

@@ -1,0 +1,12 @@
+@mixin mp($mrg,$pd){
+margin:$mrg;
+padding:$pd;
+}
+@mixin flex($df,$js,$ag){
+    display: $df;
+    justify-content: $js;
+    align-items: $ag;
+}
+@mixin txt($txt){
+    text-align: $txt;
+}
